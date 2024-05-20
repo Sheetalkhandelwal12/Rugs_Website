@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: #ecddd0;
+    display: flex;
+}
+
+.free .icon{
+    color: #55455d;
+    font-size: 32px;
+}
+
+.free p{
+    margin-left: 10px;
+    color: whitesmoke;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.main_header{
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid #35455d;
+}
+
+.main_header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_header .container .serach_box{
+    margin-right: 30px;
+}
+
+.main_header .container .serach_box input{
+    border: none;
+    padding: 10px 30px;
+    border:  4px solid #bfd1df;
+    width: 300px;
+    color: #ced2c2;
+}
+
+.main_header .container .serach_box button{
+ border: none;
+ outline: none;
+ padding: 14px 20px;
+ cursor: pointer;
+ background: #bfd1df;
+ color: whitesmoke;
+}
+
+.main_header .container .wishlist{
+    display: flex;
+    margin-right: 50px;
+}
+
+.main_header .container .wishlist .account{
+ display: flex;
+ margin-right: 30px;
+}
+
+.main_header .container .wishlist .account .user_icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+
+.main_header .container .wishlist .account p{
+ margin-right: 5px;
+ margin-top: 2px;
+}
+
+.main_header .container .wishlist .second_icon{
+    display: flex;    
+}
+
+.main_header .container .wishlist .second_icon .link{
+ font-size: 22px;
+ margin-right: 5px;
+ cursor: pointer;
+ color: #bfd1df;
+}
+
+.header{
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .continer_1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.header .continer_1 .navbar ul {
+display: flex;
+}
+
+.header .continer_1 .navbar ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.header .continer_1 .navbar ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+
+.header .continer_1 .navbar ul li .link:hover{
+    color: #bfd1df;
+}
+
+.header .continer_1 .auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* .header .continer_1 .auth button{
+
+} */
